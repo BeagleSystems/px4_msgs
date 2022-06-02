@@ -24,3 +24,6 @@ bool abs_pos_valid		# Flag showing whether absolute position is valid
 float32 x_abs			# X/north position of target, relative to origin (navigation frame) [meters]
 float32 y_abs			# Y/east position of target, relative to origin (navigation frame) [meters]
 float32 z_abs			# Z/down position of target, relative to origin (navigation frame) [meters]
+
+float32 yaw
+bool yaw_valid
